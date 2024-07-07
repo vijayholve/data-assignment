@@ -1,0 +1,20 @@
+<html>
+    <body>
+     <table> 
+        <tbody>
+            <tr>
+                <th>item.intensity</th>
+                    <th>item.topic</tr>
+                        <th>insight</th>
+            </tr>
+        </tbody>
+     {% for item in data  %}
+        <tr>
+            <td>{{item.intensity}}</td>
+            <td>{{item.topic}}</tr>
+            <td>{{item.insight}}</td>
+        </tr>
+       {% endfor %}
+    </table>    
+    </body>
+</html>

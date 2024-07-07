@@ -1,0 +1,24 @@
+<html>
+    <body>
+     <table border="1"> 
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>intensity</th>
+                    <th>topic</th>
+                        <th>insight</th>
+            </tr>
+        </thead>
+        <tbody>
+     {% for item in data  %}
+        <tr>
+            <td>{{f</td>
+            <td>{{item.intensity}}</td>
+            <td>{{item.topic}}</td>
+            <td>{{item.insight}}</td>
+        </tr>
+    {% endfor %}
+        </tbody>
+</table>    
+    </body>
+</html>
